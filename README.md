@@ -9,5 +9,8 @@ This is to learn Git, Github, HTML and CSS by building a portfolio
 * CSS
 * Javascript
 
-# Licence
+# License
+** MIT **
+
 # Author 
+Sooyeon Choi 
