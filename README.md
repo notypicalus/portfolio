@@ -1,4 +1,4 @@
-# portfolio'
+# portfolio
 This is to learn Git, Github, HTML and CSS by building a portfolio
 
 # Demo
@@ -14,3 +14,6 @@ This is to learn Git, Github, HTML and CSS by building a portfolio
 
 # Author 
 Sooyeon Choi 
+
+# FOR FUN
+:laughing:
