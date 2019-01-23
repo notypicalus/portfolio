@@ -17,3 +17,9 @@ Sooyeon Choi
 
 # FOR FUN
 :laughing:
+__Is it BOLD?__
+*This text will be italic*
+**This text will also be bold**
+As Finland is cold:
+> SNOW STORM 
+> SNOW SNOW SNOW 
