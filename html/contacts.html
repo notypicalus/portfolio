@@ -14,30 +14,72 @@
 
       <h1 style="color:#00FFFF">contacts</h1>
       <form>
-        <label>First Name</label> <input type="text" /><br />
-        <label>Last Name</label> <input type="text" /><br />
-        <label>Birth Date</label> <input type="text" /><br />
-        <label>Age</label> <input type="number" /><br />
-        <label>Date of birth</label> <input type="date" /> <br />
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="givemeyourname"/><br />
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" placeholder="givemeyourlastname"/><br />
+        <label>Birth Date</label> 
+        <input type="text" /><br />
+        <label>Age</label> 
+        <input type="number" /><br />
+        <label>Date of birth</label> 
+        <input type="date" /> <br />
 
-        <label>Colors</label> <input type="color" />
+        <label>Colors</label>
+        <input type="color" />
 
         <br />
-        <label>Gender</label> <label>Female</label>
-        <input type="radio" value="female" /> <label>male</label>
-        <input type="radio" value="male" /> <label>Other</label>
+        <label>Gender</label>
+        <label>Female</label>
+        <input type="radio" value="female" /> 
+        <label>male</label>
+        <input type="radio" value="male" /> 
+        <label>Other</label>
         <input type="radio" value="Other" /> <br />
-        <label>Country</label>
-
+        
+        <label>Country</label>  
         <select>
           <option type="Finland">Finland</option>
           <option type="UK">United Kingdom</option>
           <option type="Vietnam">Vietnam</option>
         </select>
+
         <br />
-        <label>Email</label> <input type="email" /> <label>Passwords</label>
-        <input type="password" />
+        <label>Skills</label>
+        <input type="checkbox"> <label>HTML</label> 
+        <input type="checkbox"> <label>CSS</label>
+        <input type="checkbox"> <label>Javascript</label>
+        <input type="checkbox"> <label>React</label>
+
+       
+        <head>
+          <meta charset="utf-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title> </title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+          <script src="main.js"></script>
+        </head>
+        <body>
+          
+        </body>
+        </html>
+
+        <br />
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your email" /> 
+        <label for="password">Passwords</label>
+        <input type="password" id="password" placeholder="Passwords" name="password" />
+
+        <br />
+        <label for="message"> Your message goes here</label><br />
+        <textarea id="message" name="textmessage" cols="110" rows="10"> 
+        How are you feeling today?
+        </textarea>
+        <br />
+        <input type="submit" value="submit">
       </form>
+     
 
       <footer>
         <li><a href="#"> Github </a></li>
