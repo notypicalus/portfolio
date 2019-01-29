@@ -32,6 +32,40 @@ img {
   list-style: none;
 }
 
+/* unvisited link */
+a:link {
+  color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+  border: #ff00ff;
+  background: #000;
+  padding: 5px;
+}
+
+.para {
+  color: red;
+  border: 2px solid greenyellow;
+  padding: 10px;
+}
+
+.second-para {
+  color: darkorchid;
+}
+
+.third-para {
+  background: darkcyan;
+  color: black;
+  opacity: 2.0;
+}
+
 table {
   width: 100%;
   margin: auto;
@@ -54,4 +88,24 @@ button {
 .footer-nav {
   background-color: purple;
   color: white;
+}
+
+i {
+  font-size: 40px;
+}
+
+.fa-github {
+  color: #24292d;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-medium {
+  color: #11100e;
+}
+
+.fa-twitter {
+  color: #1da1f2;
 }
