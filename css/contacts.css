@@ -56,3 +56,11 @@ nav ul li a {
 .logo-image {
   margin-left: 60%;
 }
+
+legend {
+  border: 2px dotted blue;f
+}
+
+.form-group h1 {
+  display: none;
+}

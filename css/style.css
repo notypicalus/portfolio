@@ -63,7 +63,7 @@ a:hover {
 .third-para {
   background: darkcyan;
   color: black;
-  opacity: 2.0;
+  opacity: 2;
 }
 
 table {
@@ -77,6 +77,33 @@ td {
   width: 10%;
   border: 2px solid #0077be;
   border-collapse: collapse;
+}
+
+.parent {
+  position: absolute;
+  border:2px solid black dotted;
+  background-color: #1da1f2;
+}
+
+.item {
+  position: relative;
+  width: 70%;
+  height: 50%;
+  border: greenyellow dotted;
+  left: 400px;
+}
+
+.first-item {
+  background: #ff0000;
+}
+
+.second-item {
+  background: #00ff00;
+  top: 110px;
+}
+
+.third-item {
+  background: #0000ff;
 }
 
 button {

@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+            <head>
+              <meta charset="utf-8" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <title> </title>
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+              <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+              <script src="main.js"></script>
     <title>Contacts</title>
     <Link rel="stylesheet" href="./portfolio/css/contacts.css"></Link>
+  </head>
+
+
     <body>
       <header>
         <u1>
@@ -12,75 +23,72 @@
            <li><a href="./html/contacts.html"> Contacts </a></li>
         </u1>
        </header>
-      </head>
+   
 
-      <h1 style="color:#00FFFF">contacts</h1>
-      <form>
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" placeholder="givemeyourname"/><br />
-        <label for="lastname">Last Name</label>
-        <input type="text" id="lastname" placeholder="givemeyourlastname"/><br />
-        <label>Birth Date</label>
-        <input type="text" /><br />
-        <label>Age</label>
-        <input type="number" minlength="18" maxlength="100"/><br />
-        <label>Date of birth</label>
-        <input type="date" /> <br />
-
-        <label>Colors</label>
-        <input type="color" />
-
-        <br />
-        <label>Gender</label>
-        <label>Female</label>
-        <input type="radio" value="female" />
-        <label>male</label>
-        <input type="radio" value="male" />
-        <label>Other</label>
-        <input type="radio" value="Other" /> <br />
-
-        <label>Country</label>
-        <select>
-          <option type="Finland">Finland</option>
-          <option type="UK">United Kingdom</option>
-          <option type="Vietnam">Vietnam</option>
-        </select>
-
-        <label>Region</label><input type="text" pattern="’Finnish|Swedish|Danish">
-
-
-        <br />
-        <label>Skills</label>
-        <input type="checkbox"> <label>HTML</label>
-        <input type="checkbox"> <label>CSS</label>
-        <input type="checkbox"> <label>Javascript</label>
-        <input type="checkbox"> <label>React</label>
-
-        <head>
-          <meta charset="utf-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <title> </title>
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-          <script src="main.js"></script>
-        </head>
-
-
-        <br />
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Your email" />
-        <label for="password">Passwords</label>
-        <input type="password" id="password" placeholder="Passwords" name="password" />
-
-        <br />
-        <label for="message"> Your message goes here</label><br />
-        <textarea id="message" name="textmessage" cols="110" rows="10">
-        How are you feeling today?
-        </textarea>
-        <br />
-        <input type="submit" value="submit">
-      </form>
-
+      <main>
+        <section>
+          <div>
+            <h1>Just holding the place in here</h1>
+          </div>
+        </section>
+        <form action="">
+          <fieldset>
+            <legend> form</legend>
+            <div class="form-group">
+              <label for="firstname" pattern=[A-Z]{1}[a-z]{1,14}></label>First Name</label>
+              <input type="text" id="firstname" placeholder="givemeyourname" required /><br />
+              <p class="error-message">email cannot be empty</p>
+        </form>
+        
+          <label for="lastname">Last Name</label>
+          <input type="text" id="lastname" placeholder="givemeyourlastname" /><br />
+          <label>Birth Date</label>
+          <input type="text" /><br />
+          <label>Age</label>
+          <input type="number" minlength="18" maxlength="100" /><br />
+          <label>Date of birth</label>
+          <input type="date" /> <br />
+        
+          <label>Colors</label>
+          <input type="color" />
+        
+          <br />
+          <label>Gender</label>
+          <label>Female</label>
+          <input type="radio" value="female" />
+          <label>male</label>
+          <input type="radio" value="male" />
+          <label>Other</label>
+          <input type="radio" value="Other" /> <br />
+          <label>Country</label>
+          <select>
+            <option type="Finland">Finland</option>
+            <option type="UK">United Kingdom</option>
+            <option type="Vietnam">Vietnam</option>
+          </select>
+        
+          <label>Region</label><input type="text" pattern="’Finnish|Swedish|Danish">  
+          <label>Skills</label>
+          <input type="checkbox"> <label>HTML</label>
+          <input type="checkbox"> <label>CSS</label>
+          <input type="checkbox"> <label>Javascript</label>
+          <input type="checkbox"> <label>React</label>
+          </div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your email" />
+          <label for="password">Passwords</label>
+          <input type="password" id="password" placeholder="Passwords" name="password" />
+        
+          <br />
+          <label for="message"> Your message goes here</label><br />
+          <textarea id="message" name="textmessage" cols="110" rows="10">
+                How are you feeling today?
+                </textarea>
+          <br />
+          <input type="submit" value="submit">
+        </form>
+        </fieldset>
+      </main>
 
       <footer>
         <li><a href="#"> Github </a></li>
