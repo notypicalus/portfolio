@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.click li {
+  display: inline-block;
+  margin-right: 50px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+}
+.click {
+}
+
+.socialmedia {
+  align-self: baseline;
+}
+
+.socialmedia li {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-github {
+  color: #24292d;
+}
+
+.fa-linkedin-in {
+  color: #0077b5;
+}
+
+.fa-medium {
+  color: #11100e;
+}
+.fa-codepen {
+  color: #000;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+.fa-instagram {
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.main-div {
+  align-self: baseline;
+  margin-bottom: 120px;
+}
+
+.main-div h1 {
+}
+
+.form-all {
+}
