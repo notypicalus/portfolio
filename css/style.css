@@ -8,23 +8,27 @@ body {
   height: 100%;
   width: 100%;
 }
-.menu {
+
+.main-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   font-family: Arial, Helvetica, sans-serif;
 }
-.click li {
-  display: inline-block;
-  margin-right: 50px;
-}
-.menu li a {
+
+.nav-container li a {
   text-decoration: none;
   color: black;
 }
-nav {
-}
-.click {
+
+.menu li {
+  display: inline-block;
+  margin-right: 50px;
 }
 
 .socialmedia {
@@ -35,48 +39,6 @@ nav {
   display: inline-block;
   text-decoration: none;
   margin-left: 20px;
-}
-
-/* header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  width: 70%;
-}
-
-header nav ul li {
-  margin-right: 40%;
-  list-style: none;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-header section {
-}
-
-header section ul {
-  display: flex;
-  flex-direction: row;
-}
-
-header section ul li {
-  list-style: none;
-  margin-left: -50%;
-  size: 30px;
-}
-*/
-.logo {
-  display: flex;
-  justify-content: center;
 }
 
 .fa-github {
@@ -99,31 +61,15 @@ header section ul li {
 .fa-instagram {
 }
 
-.body {
-  font-family: Arial, Helvetica, sans-serif;
+.intro-container {
+  display: inline-block;
+  width: 50%;
+  padding: 60px;
 }
 
-.intro {
-  display: flex;
-  margin-top: 100px;
-  margin-bottom: 45px;
-}
-
-.headline {
-  flex: 1;
-  letter-spacing: -1px;
-  line-height: 25px;
-  margin-left: 250px;
-  margin-top: 50px;
-}
-
-.videopart {
-  flex: 1;
-  margin-left: -70px;
-}
-
-aside {
-  width: 34.3%;
+.intro-video {
+  display: inline-block;
+  width: 50%;
 }
 
 .firstline {
@@ -140,26 +86,11 @@ aside {
   display: inline;
 }
 
-.video {
-}
-
-.sneak-peak {
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.container {
+.project-container {
   display: flex;
-  justify-content: space-evenly;
 }
 
-.sneak-peak h1 {
-  margin-bottom: 50px;
-  text-align: center;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+.reference {
 }
 
 .vlog {
@@ -171,11 +102,6 @@ aside {
   margin-bottom: 50px;
   text-decoration-line: underline;
   text-decoration-style: wavy;
-}
-
-.vlog-container {
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: space-evenly;
 }
 
 .vlog h1 {
@@ -197,11 +123,4 @@ a:hover {
 
 a:active {
   color: yellow;
-}
-
-.github {
-}
-.youtube-video {
-}
-.youtube-videotwo {
 }
